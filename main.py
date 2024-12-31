@@ -13,7 +13,7 @@ import io
 API_TOKEN = "7829907552:AAFN09DlH61eG_JcENvalzeu4CmskUsy-00"
 
 # ProbivAPI secret key
-PROBIVAPI_KEY = "7829907552:AAFN09DlH61eG_JcENvalzeu4CmskUsy-00"
+PROBIVAPI_KEY = "8a9f0643-0cd9-48f6-8a25-1268baee8cb7"
 
 # Initialize bot and dispatcher
 bot = Bot(token=API_TOKEN)
@@ -101,11 +101,11 @@ async def text(message: Message):
 ┣ 🔎 ФИО (ViewCaller): {viewcaller_api_name}
 ┗ 👇 Еще...
 
-@probivapi
+@Whoiswho
                         
-Код бота: https://github.com/dimondevceo/glazboga/
 
-Пробив API: https://probivapi.com"""
+
+Пробив API: https://test.ru"""
 
     # Send the formatted data to the user on Telegram
     if pic_data:
